@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <EditText
+        android:id="@+id/Login_FName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FIRST NAME"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/Login_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/Login_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/Login_Sinup"
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:background="@drawable/buttonsignupstyle"
+        android:drawableLeft="@drawable/Kajan_Twitter" />
+</LinearLayout>

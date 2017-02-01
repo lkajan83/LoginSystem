@@ -3,11 +3,49 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="match_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:background="@android:color/background_light">
+    <TextView
+        android:text="Create An Account"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView1"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center" />
+    <Button
+        android:text="Sign IN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/button1"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:background="@android:color/holo_blue_light" />
+    <TextView
+        android:text="OR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/textView2"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:textSize="25sp"
+        android:textColor="@android:color/background_light"
+        android:gravity="center" />
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/sinup"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:background="@drawable/buttonsignupstyle"
+        android:drawableLeft="@drawable/Icon" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar1"
+        android:layout_weight="1" />
 </LinearLayout>
